@@ -1,0 +1,28 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.box{
+    background-color: antiquewhite;
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px;
+
+}
+button{
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+
+}
